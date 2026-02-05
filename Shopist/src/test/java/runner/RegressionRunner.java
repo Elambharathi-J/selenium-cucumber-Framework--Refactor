@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/featurefile"},
         glue = {"stepdefinition"},
-        tags = "@staticDropdown",
+        tags = "@Multiple",
         plugin = {"pretty",
                 "html:target/testoutput/report.html",
                 "json:target/testoutput/report.json",
